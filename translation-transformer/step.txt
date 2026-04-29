@@ -1,0 +1,8 @@
+一，数据处理
+1.先改model，定义中英文的embedding层，以及填充层
+2.编写位置编码
+3.定义transformer
+4.解码器后面的Linear线性层
+5.定义forward方法，训练时调用
+6.定义encode,decode方法，推理时调用
+7.train 修改train_one_epoch

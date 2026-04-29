@@ -1,0 +1,40 @@
+# 模型
+*.bin
+*.pth
+*.pt
+*.h5
+*.model
+*.onnx
+
+# 数据集
+data/
+datasets/
+dataset/
+
+# 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 训练结果
+runs/
+output/
+logs/
+checkpoints/
+
+# 1. PyCharm 配置文件
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# 2. Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.pyc
